@@ -1,0 +1,16 @@
+Sitemap: https://hanime.biz.id/sitemap.xml
+Sitemap: https://hanime.biz.id/all-anime.xml.gz
+Sitemap: https://hanime.biz.id/newest-sitemap.xml
+Sitemap: https://hanime.biz.id/recent-sitemap.xml
+Sitemap: https://hanime.biz.id/video-sitemap.xml
+User-agent: *
+Allow: /
+Disallow: /search
+Disallow: /genre
+Disallow: /register
+Disallow: /login
+Disallow: /brands
+Disallow: /18-usc-2257
+Disallow: /contact
+Disallow: /popular
+Disallow: /player
