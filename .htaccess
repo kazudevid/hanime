@@ -1,0 +1,20 @@
+Options -Indexes
+RewriteBase /
+IndexIgnore *
+IndexIgnore *.png *.zip *.jpg *.gif *.doc
+RewriteEngine On
+RewriteCond %{REQUESTFILENAME} !-f
+RewriteRule ^(.*)\/(\?.*)?$ $1$2 [R=301,L]
+RewriteRule ^([^.]+)$ $1.php [NC,L]
+RewriteRule ^anime/([a-zA-Z0-9-=_]+) anime.php
+RewriteRule ^video/([a-zA-Z0-9-=_]+) episode.php
+RewriteRule ^home home.php
+RewriteRule ^genre tag-id.php
+RewriteRule ^player player.php
+RewriteRule ^sitemap.xml sitemap.php
+RewriteRule ^trending trending.php
+RewriteRule ^recent-sitemap.xml recent-sitemap.php
+RewriteRule ^video-sitemap.xml video-sitemap.php
+RewriteRule ^newest-sitemap.xml newest-sitemap.php
+RewriteRule ^sitemap-misc.xml sitemap-misc.php
+ErrorDocument 404 /404.html
