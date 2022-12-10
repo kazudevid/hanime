@@ -1,10 +1,10 @@
 {
     "name": "Hanime",
     "description": "A free anime streaming website",
-    "keywords": ["hanime", "hanime.tv", "scrapper", "api", "streaming"],
+    "keywords": ["hanime", "hanime tv", "scrapper", "api-anime", "streaming"],
     "website": "https://hanime.biz.id",
     "repository": "https://github.com/kazudevid/hanime",
-    "logo": "https://hanime.biz.id/assets/img/desunime.png",
+    "logo": "https://raw.githubusercontent.com/kazudevid/hanime/main/assets/img/banner.png",
 
     "image": "heroku/php",
     "stack": "heroku-22"
